@@ -1,3 +1,5 @@
 models/
 .DS_Store
 *.gguf
+*.txt
+!Modelfile.template.txt

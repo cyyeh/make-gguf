@@ -1,0 +1,1 @@
+FROM <relative_path_to_gguf_model_file>
