@@ -6,6 +6,7 @@
 3. upload model to Ollama:
     - install Ollama
     - create `Modelfile.txt` from the template: `cp Modelfile.template.txt Modelfile.txt`
+    - fill in contents of Modelfile
     - create ollama model: `ollama create <ollama_user_name>/<model_name> -f Modelfile.txt`
     - make sure the model is created: `ollama list | grep <ollama_user_name>/<model_name>`
     - make sure the model can be used: `ollama run <ollama_user_name>/<model_name>`
